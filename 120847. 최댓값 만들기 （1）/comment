@@ -1,0 +1,14 @@
+간단한게 있었다.. 배열 원소 중에서 최댓값이랑 두 번째로 큰 값 찾아줘버리면 된다..
+
+import java.util.*;
+
+class Solution {
+    public int solution(int[] numbers) {
+        int answer = 0;
+
+        Arrays.sort(numbers); // 배열 정렬
+
+        // 배열 길이 끝이랑 끝에서 두 번째 값 곲해주기
+        return numbers[numbers.length-1]*numbers[numbers.length-2];
+    }
+}
